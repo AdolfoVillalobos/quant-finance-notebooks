@@ -45,11 +45,15 @@ def fetch_ohlcv_with_pagination(symbol, timeframe, start_time, end_time):
 
 
 if __name__ == "__main__":
+    params = [
+        {"symbol": "BTC/USDT", "timeframe": "5m"},
+        {"symbol": "ETH/USDT", "timeframe": "5m"},
+    ]
+    for param in params:
+        symbol = param["symbol"]
+        timeframe = param["timeframe"]
+        start_time = "2024-01-01T00:00:00Z"
+        end_time = "2024-09-30T00:00:00Z"
 
-    symbol = "BTC/USDT"
-    timeframe = "5m"
-    start_time = "2024-01-01T00:00:00Z"
-    end_time = "2024-09-28T00:00:00Z"
-
-    df = fetch_ohlcv_with_pagination(symbol, timeframe, start_time, end_time)
-    print(df.head())
+        df = fetch_ohlcv_with_pagination(symbol, timeframe, start_time, end_time)
+        print(df.head())
