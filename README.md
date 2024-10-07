@@ -7,8 +7,9 @@ This repository contains a collection of Jupyter notebooks focused on quantitati
 1. Distributions and Random Variables
 2. Moments and Statistics
 3. Normality Tests
-4. Correlation Analysis
-5. Cross-correlation Analysis
+4. Covariance
+4. Correlation
+5. Cross-correlation
 
 ## Setup
 
