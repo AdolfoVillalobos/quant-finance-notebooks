@@ -5,11 +5,12 @@ This repository contains a collection of Jupyter notebooks focused on quantitati
 ## Contents
 
 1. Distributions and Random Variables
-2. Moments and Statistics
-3. Normality Tests
-4. Covariance
-4. Correlation
-5. Cross-correlation
+1. Moments and Statistics
+1. Normality Tests
+1. Covariance
+1. Correlation
+1. Cross-correlation
+1. Ordinary Least Squares
 
 ## Setup
 
