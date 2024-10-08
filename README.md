@@ -11,6 +11,7 @@ This repository contains a collection of Jupyter notebooks focused on quantitati
 1. Correlation
 1. Cross-correlation
 1. Ordinary Least Squares
+1. Multivariate Least Squares
 
 ## Setup
 
